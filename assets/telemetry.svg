@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" fill="none">
+  <style>
+    @keyframes pulse {
+      0%, 100% { r: 5; opacity: 0.4; }
+      50% { r: 12; opacity: 0; }
+    }
+    @keyframes lineDraw {
+      0% { stroke-dashoffset: 240; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .g-pulse { animation: pulse 3s infinite ease-in-out; }
+    .wave-path {
+      stroke: url(#lineGrad);
+      stroke-dasharray: 60, 15;
+      animation: lineDraw 10s linear infinite;
+    }
+    .lbl { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #64748b; font-weight: bold; }
+    .val { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; fill: #f1f5f9; }
+    .title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #ffffff; }
+  </style>
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EE4C2C" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.02" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EE4C2C" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="620" height="180" rx="12" fill="#020617" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="620" height="180" rx="12" fill="url(#neonGlow)" />
+
+  <!-- Pulse Tracker Status -->
+  <circle cx="40" cy="35" r="10" fill="#EE4C2C" fill-opacity="0.1" />
+  <circle cx="40" cy="35" r="14" fill="#EE4C2C" fill-opacity="0.05" class="g-pulse" />
+  <circle cx="40" cy="35" r="4.5" fill="#EE4C2C" />
+
+  <!-- Header Text -->
+  <text x="65" y="39" class="title" letter-spacing="0.5">ITS FTEIC TELEMETRY SYSTEM ACTIVE</text>
+  <line x1="25" y1="60" x2="595" y2="60" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Column 1: Identity of operator -->
+  <text x="35" y="85" class="lbl" fill="#EE4C2C">AUTHORIZED OPERATOR</text>
+  <text x="35" y="105" class="val" font-weight="bold">Thomas Alfareno Ananta Nugraha</text>
+  <text x="35" y="125" class="val" fill="#94a3b8" font-size="11">Teknik Informatika (Informatics Engineering)</text>
+  <text x="35" y="145" class="val" fill="#64748b" font-size="11">Institut Teknologi Sepuluh Nopember (ITS)</text>
+
+  <!-- Column 2: System Status metrics -->
+  <text x="250" y="85" class="lbl" fill="#a78bfa">SYSTEM ENGINE RUNTIME</text>
+  <text x="250" y="105" class="val">Node status: <tspan fill="#4ade80">ONLINE</tspan></text>
+  <text x="250" y="125" class="val" fill="#cbd5e1" font-size="11">Backend: PyTorch &amp; MySQL</text>
+  <text x="250" y="145" class="val" fill="#cbd5e1" font-size="11">Core Decoders: Optimized</text>
+
+  <!-- Column 3: Signal vector graphics -->
+  <text x="440" y="85" class="lbl" fill="#4ade80">REAL-TIME SIGNAL</text>
+  <path d="M 440 120 Q 470 95, 490 120 T 540 120 T 590 110" stroke="#1e293b" stroke-width="2" fill="none" />
+  <path d="M 440 120 Q 470 95, 490 120 T 540 120 T 590 110" stroke-width="2" fill="none" class="wave-path" />
+  <circle cx="590" cy="110" r="3" fill="#6366f1" />
+</svg>

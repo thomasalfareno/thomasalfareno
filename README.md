@@ -7,24 +7,38 @@
   📍 **Surabaya, East Java, Indonesia**
 
   <p align="center">
-    <img src="https://github.com/thomasalfareno.png" width="110" height="110" style="border-radius: 50%; border: 3px solid #EE4C2C;" alt="Avatar" />
+    <img src="https://github.com/thomasalfareno.png" width="110" height="110" style="border-radius: 50%; opacity: 0.95; border: 3px solid #EE4C2C;" alt="Avatar" />
     <br />
     <a href="https://github.com/thomasalfareno">
-      <img src="https://komarev.com/normal-badge.png?key=thomasalfareno&style=for-the-badge&color=EE4C2C&label=PROFILE+VIEWS" alt="Profile Views" />
+      <img src="https://komarev.com/normal-badge.png?key=thomasalfareno&amp;style=for-the-badge&amp;color=EE4C2C&amp;label=PROFILE+VIEWS" alt="Profile Views" />
     </a>
   </p>
 
-  [![Typewriter](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1000&color=EE4C2C&center=true&vCenter=true&width=530&lines=import+torch;+model+%3D+SpaceAxModel();php+-r+'echo+"Interactive+systems";';SELECT+*+FROM+kbbi+LIMIT+1;console.log("Clean+Informatics+Web"))](https://git.io/typing-svg)
+  <!-- Fully Animated Character-by-Character Terminal Simulation -->
+  <p align="center">
+    <img src="assets/terminal.svg" width="600" alt="Animated Typewriter Terminal" />
+  </p>
+
+  <!-- Live Simulated System Telemetry Grid -->
+  <p align="center">
+    <img src="assets/telemetry.svg" width="600" alt="System Telemetry Tracker" />
+  </p>
+
+  <p align="center">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=16&amp;duration=2500&amp;pause=1000&amp;color=EE4C2C&amp;center=true&amp;vCenter=true&amp;width=530&amp;lines=import+torch;+model+%3D+SpaceAxModel();php+-r+'echo+\&quot;Interactive+systems\&quot;';SELECT+*+FROM+kbbi+LIMIT+1;console.log(\&quot;Clean+Informatics+Web\&quot;)" alt="Typewriter Badge" />
+    </a>
+  </p>
 
   <p align="center">
     <a href="https://www.linkedin.com/in/thomas-alfareno-ab7a86410/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://www.instagram.com/th.al.an.nu" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
     </a>
     <a href="https://x.com/th_al_an_nu" target="_blank">
-      <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+      <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="X" />
     </a>
   </p>
 
@@ -50,15 +64,15 @@ Mahasiswa Teknik Informatika ITS Surabaya (FTEIC) angkatan 2024 yang antusias de
 ### 🛠️ Key Technologies & Skills
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" alt="VS Code" />
 </p>
 
 ---
@@ -105,31 +119,20 @@ Here are some of the key machine learning, conversational engines, and neural ar
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=thomasalfareno&show_icons=true&theme=nord&hide_border=true&align=center" alt="Thomas Alfareno Ananta Nugraha GitHub Stats" height="150" />
+        <img src="https://github-readme-stats.vercel.app/api?username=thomasalfareno&amp;show_icons=true&amp;theme=nord&amp;hide_border=true&amp;align=center" alt="Thomas Alfareno Ananta Nugraha GitHub Stats" height="150" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thomasalfareno&layout=compact&theme=nord&hide_border=true&align=center" alt="Top Languages Map" height="150" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thomasalfareno&amp;layout=compact&amp;theme=nord&amp;hide_border=true&amp;align=center" alt="Top Languages Map" height="150" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=thomasalfareno&theme=nord&hide_border=true" alt="GitHub Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=thomasalfareno&amp;theme=nord&amp;hide_border=true" alt="GitHub Streak Stats" />
       </td>
     </tr>
   </table>
 </div>
 
-<!--## Hi there 👋
-**thomasalfareno/thomasalfareno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  *Created dynamically with the Interactive ITS GitHub Builder* 🚀
+</div>
