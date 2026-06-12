@@ -33,7 +33,7 @@
   <!-- Avatar -->
   <g clip-path="url(#avatarClip)">
     <image
-      href="https://raw.githubusercontent.com/thomasalfareno/thomasalfareno/main/assets/avatar.jpg"
+      href="avatar.jpg"
       x="24"
       y="24"
       width="152"
