@@ -130,7 +130,3 @@ Berikut adalah beberapa arsitektur saraf, mesin percakapan, dan pengembangan sis
     </tr>
   </table>
 </div>
-
-<div align="center">
-  *Dibuat secara dinamis menggunakan Interactive ITS GitHub Builder* 🚀
-</div>
