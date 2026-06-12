@@ -26,7 +26,7 @@
   
   <g clip-path="url(#circleClip)">
     <rect width="200" height="200" fill="#0f172a" />
-    <image href="https://github.com/thomasalfareno/thomasalfareno/blob/main/assets/Icon.jpeg" x="24" y="24" width="152" height="152" />
+    <image href="https://github.com/thomasalfareno/thomasalfareno/blob/main/assets/Icon.jpeg?raw=true" x="24" y="24" width="152" height="152" />
   </g>
   
   <!-- Live Signal Indicator Dot -->
