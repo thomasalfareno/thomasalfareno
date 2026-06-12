@@ -46,10 +46,10 @@
 
 ### 💫 Tentang Saya
 
-Mahasiswa Teknik Informatika ITS Surabaya (FTEIC) angkatan 2024 yang antusias dengan backend engineering, sistem web konvensional, serta deep learning dari dasar. Saat ini fokus ngulik arsitektur Transformer dan training model decoder-only dari nol memakai PyTorch, sekaligus membangun sistem web interaktif berbasis PHP/MySQL dan JavaScript. Sering menghabiskan malam dengan terminal dan secangkir kopi hitam.
+Mahasiswa Teknik Informatika ITS Surabaya (FTEIC) angkatan 2026 yang antusias dengan backend engineering, sistem web konvensional, serta deep learning dari dasar. Saat ini fokus ngulik arsitektur Transformer dan training model decoder-only dari nol memakai PyTorch, sekaligus membangun sistem web interaktif berbasis PHP/MySQL dan JavaScript. Sering menghabiskan malam dengan terminal dan secangkir kopi hitam.
 
 #### 🎓 Perjalanan Akademik
-- 🏫 Mahasiswa aktif program studi **Teknik Informatika (Informatics Engineering)**
+- 🏫 Mahasiswa aktif program studi **Teknik Informatika (Informatics Engineering) - Angkatan 2026**
 - 🏛️ **Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC)**
 - 🎓 **Institut Teknologi Sepuluh Nopember (ITS)** (ITS Surabaya)
 
@@ -129,4 +129,8 @@ Berikut adalah beberapa arsitektur saraf, mesin percakapan, dan pengembangan sis
       </td>
     </tr>
   </table>
+</div>
+
+<div align="center">
+  *Dibuat secara dinamis menggunakan Interactive ITS GitHub Builder* 🚀
 </div>

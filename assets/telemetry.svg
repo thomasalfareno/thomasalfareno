@@ -14,9 +14,11 @@
       stroke-dasharray: 60, 15;
       animation: lineDraw 10s linear infinite;
     }
-    .lbl { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; fill: #64748b; font-weight: bold; }
-    .val { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; fill: #f1f5f9; }
-    .title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; font-weight: bold; fill: #ffffff; }
+    .lbl { font-family: 'Fira Code', 'Courier New', monospace; font-size: 9.5px; fill: #64748b; font-weight: bold; label-spacing: 0.5px; }
+    .val { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11.5px; fill: #f1f5f9; }
+    .val-dim { font-family: 'Fira Code', 'Courier New', monospace; font-size: 10px; fill: #94a3b8; }
+    .val-sub { font-family: 'Fira Code', 'Courier New', monospace; font-size: 9px; fill: #64748b; }
+    .title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13.5px; font-weight: bold; fill: #ffffff; }
   </style>
   <defs>
     <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -42,21 +44,21 @@
   <text x="65" y="39" class="title" letter-spacing="0.5">SISTEM TELEMETRI ITS FTEIC AKTIF</text>
   <line x1="25" y1="60" x2="595" y2="60" stroke="#1e293b" stroke-width="1" />
 
-  <!-- Column 1: Identity of operator -->
-  <text x="35" y="85" class="lbl" fill="#EE4C2C">PENGEMBANG UTAMA</text>
-  <text x="35" y="105" class="val" font-weight="bold">Thomas Alfareno Ananta Nugraha</text>
-  <text x="35" y="125" class="val" fill="#94a3b8" font-size="11">Teknik Informatika (Informatics Engineering)</text>
-  <text x="35" y="145" class="val" fill="#64748b" font-size="11">Institut Teknologi Sepuluh Nopember (ITS)</text>
+  <!-- Column 1: Identity of operator (Width ~285px) -->
+  <text x="30" y="85" class="lbl" fill="#EE4C2C">PENGEMBANG UTAMA</text>
+  <text x="30" y="104" class="val" font-weight="bold">Thomas Alfareno Ananta Nugraha</text>
+  <text x="30" y="122" class="val-dim" fill="#94a3b8">Teknik Informatika (Informatics Engineering) - Angkatan 2026</text>
+  <text x="30" y="140" class="val-sub" fill="#64748b">Institut Teknologi Sepuluh Nopember (ITS)</text>
 
-  <!-- Column 2: System Status metrics -->
-  <text x="250" y="85" class="lbl" fill="#a78bfa">SISTEM RUNTIME MESIN</text>
-  <text x="250" y="105" class="val">Status Node: <tspan fill="#4ade80">ONLINE</tspan></text>
-  <text x="250" y="125" class="val" fill="#cbd5e1" font-size="11">Backend: PyTorch &amp; MySQL</text>
-  <text x="250" y="145" class="val" fill="#cbd5e1" font-size="11">Dekoder Inti: Teroptimasi</text>
+  <!-- Column 2: System Status metrics (Shifted to x=325 to secure comfort buffer) -->
+  <text x="325" y="85" class="lbl" fill="#a78bfa">SISTEM RUNTIME MESIN</text>
+  <text x="325" y="104" class="val">Status Node: <tspan fill="#4ade80" font-weight="bold">ONLINE</tspan></text>
+  <text x="325" y="122" class="val-dim">Backend: PyTorch &amp; MySQL</text>
+  <text x="325" y="140" class="val-sub">Dekoder Inti: Teroptimasi</text>
 
-  <!-- Column 3: Signal vector graphics -->
-  <text x="440" y="85" class="lbl" fill="#4ade80">SINYAL REAL-TIME</text>
-  <path d="M 440 120 Q 470 95, 490 120 T 540 120 T 590 110" stroke="#1e293b" stroke-width="2" fill="none" />
-  <path d="M 440 120 Q 470 95, 490 120 T 540 120 T 590 110" stroke-width="2" fill="none" class="wave-path" />
-  <circle cx="590" cy="110" r="3" fill="#6366f1" />
+  <!-- Column 3: Signal vector graphics (Shifted to x=480 for beautiful alignment) -->
+  <text x="480" y="85" class="lbl" fill="#4ade80">SINYAL REAL-TIME</text>
+  <path d="M 480 120 Q 510 95, 525 120 T 560 120 T 600 110" stroke="#1e293b" stroke-width="2" fill="none" />
+  <path d="M 480 120 Q 510 95, 525 120 T 560 120 T 600 110" stroke-width="2" fill="none" class="wave-path" />
+  <circle cx="600" cy="110" r="3" fill="#6366f1" />
 </svg>
