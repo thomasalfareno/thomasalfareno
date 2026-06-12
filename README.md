@@ -1,13 +1,13 @@
 <div align="center">
 
-  <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/thomasalfareno/thomasalfareno/main/assets/avatar.svg"
-    width="180"
-    alt="Thomas Avatar"
-  />
-</p>
-
+    <p align="center">
+    <img src="https://avatars.githubusercontent.com/u/75778362?v=4" width="110" height="110" style="border-radius: 50%; border: 3px solid #EE4C2C;" alt="Avatar" />
+    <br />
+    <a href="https://github.com/thomasalfareno">
+      <img src="https://komarev.com/normal-badge.png?key=thomasalfareno&style=for-the-badge&color=EE4C2C&label=PROFILE+VIEWS" alt="Profile Views" />
+    </a>
+  </p>
+  
   # Halo Dunia, Saya Thomas Alfareno Ananta Nugraha! 👋
 
   ### *🖥️ Informatics Engineering Student | Tech Enthusiast*
