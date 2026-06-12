@@ -1,33 +1,31 @@
 <div align="center">
 
-  # Hello World, I'm Thomas Alfareno Ananta Nugraha! 👋
+  <!-- Avatar Indah dari Aset lokal -->
+  <p align="center">
+    <img src="assets/avatar.svg" width="130" height="130" style="border-radius: 50%; opacity: 0.95;" alt="Pas Foto / Avatar" />
+  </p>
+
+  # Halo Dunia, Saya Thomas Alfareno Ananta Nugraha! 👋
 
   ### *🖥️ Informatics Engineering Student | Tech Enthusiast*
 
   📍 **Surabaya, East Java, Indonesia**
 
+  <!-- Counter Kunjungan Profil -->
   <p align="center">
-    <img src="https://github.com/thomasalfareno.png" width="110" height="110" style="border-radius: 50%; opacity: 0.95; border: 3px solid #EE4C2C;" alt="Avatar" />
-    <br />
     <a href="https://github.com/thomasalfareno">
-      <img src="https://komarev.com/normal-badge.png?key=thomasalfareno&amp;style=for-the-badge&amp;color=EE4C2C&amp;label=PROFILE+VIEWS" alt="Profile Views" />
+      <img src="assets/profile_views.svg" alt="Statistik Kunjungan Profil" />
     </a>
   </p>
 
-  <!-- Fully Animated Character-by-Character Terminal Simulation -->
+  <!-- Simulasi Terminal Typewriter Animasi Penuh -->
   <p align="center">
-    <img src="assets/terminal.svg" width="600" alt="Animated Typewriter Terminal" />
+    <img src="assets/terminal.svg" width="600" alt="Terminal Typewriter Animasi" />
   </p>
 
-  <!-- Live Simulated System Telemetry Grid -->
+  <!-- Sistem Telemetri Live & Status Node -->
   <p align="center">
-    <img src="assets/telemetry.svg" width="600" alt="System Telemetry Tracker" />
-  </p>
-
-  <p align="center">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=16&amp;duration=2500&amp;pause=1000&amp;color=EE4C2C&amp;center=true&amp;vCenter=true&amp;width=530&amp;lines=import+torch;+model+%3D+SpaceAxModel();php+-r+'echo+\&quot;Interactive+systems\&quot;';SELECT+*+FROM+kbbi+LIMIT+1;console.log(\&quot;Clean+Informatics+Web\&quot;)" alt="Typewriter Badge" />
-    </a>
+    <img src="assets/telemetry.svg" width="600" alt="Sistem Telemetri Operator" />
   </p>
 
   <p align="center">
@@ -46,22 +44,22 @@
 
 ---
 
-### 💫 About Me
+### 💫 Tentang Saya
 
 Mahasiswa Teknik Informatika ITS Surabaya (FTEIC) angkatan 2024 yang antusias dengan backend engineering, sistem web konvensional, serta deep learning dari dasar. Saat ini fokus ngulik arsitektur Transformer dan training model decoder-only dari nol memakai PyTorch, sekaligus membangun sistem web interaktif berbasis PHP/MySQL dan JavaScript. Sering menghabiskan malam dengan terminal dan secangkir kopi hitam.
 
-#### 🎓 Academic Journey
-- 🏫 Undergrad student in **Teknik Informatika (Informatics Engineering)**
+#### 🎓 Perjalanan Akademik
+- 🏫 Mahasiswa aktif program studi **Teknik Informatika (Informatics Engineering)**
 - 🏛️ **Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC)**
 - 🎓 **Institut Teknologi Sepuluh Nopember (ITS)** (ITS Surabaya)
 
-### 🚀 Quick Highlights
+### 🚀 Sorotan Singkat
 
-- 🌱 **Currently learning:** Deep Learning Optimization on Cloud/TPU, PHP Architecture, and High-Performance MySQL query optimization
-- 📂 **Currently working on:** SpaceAX Conversational AI Engine & High-Performance Indonesia KBBI Dictionary Integration
-- ⚡ **Fun Fact:** Suka berdiskusi teknologi sambil menyeruput secangkir kopi hangat!
+- 🌱 **Sedang mempelajari:** Deep Learning Optimization on Cloud/TPU, PHP Architecture, and High-Performance MySQL query optimization
+- 📂 **Sedang mengerjakan:** SpaceAX Conversational AI Engine & High-Performance Indonesia KBBI Dictionary Integration
+- ⚡ **Fakta Unik:** Suka berdiskusi teknologi sambil menyeruput secangkir kopi hangat!
 
-### 🛠️ Key Technologies & Skills
+### 🛠️ Teknologi Kunci & Keahlian
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
@@ -77,15 +75,15 @@ Mahasiswa Teknik Informatika ITS Surabaya (FTEIC) angkatan 2024 yang antusias de
 
 ---
 
-### 📂 Featured Open Source Projects
+### 📂 Proyek Kode Terbuka Pilihan
 
-Here are some of the key machine learning, conversational engines, and neural architectures I've designed and trained from absolute scratch:
+Berikut adalah beberapa arsitektur saraf, mesin percakapan, dan pengembangan sistem cerdas yang saya kembangkan dari awal:
 
 #### 🛠️ [**SpaceAX-AI**](https://github.com/thomasalfareno/SpaceAX-AI)
 > Conversational AI Engine berbasis Transformer decoder-only yang dirancang untuk dapat belajar mandiri secara real-time dari internet, mengingat konteks percakapan dengan SQLite, memiliki kepribadian emosi, dan terintegrasi leksikon KBBI.
 
-- **Tech Stack:** `PyTorch`, `Tokenizers`, `SQLite`, `DuckDuckGo Search`, `BeautifulSoup4`
-- **Key Capabilities:**
+- **Teknologi Utama:** `PyTorch`, `Tokenizers`, `SQLite`, `DuckDuckGo Search`, `BeautifulSoup4`
+- **Fitur Utama:**
   - Arsitektur modular (core model, memory, learning, personality, training)
   - Integrasi database KBBI (~112k entri) untuk pengayaan kosa kata bahasa Indonesia
   - Short/Long-term memory berbasis SQLite Vector Store
@@ -94,8 +92,8 @@ Here are some of the key machine learning, conversational engines, and neural ar
 #### 🛠️ [**SpaceAX-AI-BETA**](https://github.com/thomasalfareno/SpaceAX-AI-BETA)
 > Mesin percakapan Transformer decoder-only modular dengan optimasi ProMax scaling (~1.2B hingga ~8B parameter) yang dilatih sepenuhnya dari nol (bukan pre-made model dari HuggingFace).
 
-- **Tech Stack:** `PyTorch`, `NumPy`, `BPE Tokenizer`, `Rich Terminal UI`
-- **Key Capabilities:**
+- **Teknologi Utama:** `PyTorch`, `NumPy`, `BPE Tokenizer`, `Rich Terminal UI`
+- **Fitur Utama:**
   - Skala ProMax Parameter (ProMax 1B, ProMax 4B, dan ProMax 8B)
   - VRAM-Fitting otomatis untuk optimalisasi training hardware hemat
   - Sistem filter output 3 tingkat (validator Ketat, Longgar, Draft)
@@ -104,8 +102,8 @@ Here are some of the key machine learning, conversational engines, and neural ar
 #### 🛠️ [**SpaceAX-AI-BETA-TPU**](https://github.com/thomasalfareno/SpaceAX-AI-BETA-TPU)
 > Versi performa tinggi dari SpaceAX-AI ProMax yang dioptimalkan khusus untuk akselerasi Google Cloud TPU v5e-1 menggunakan PyTorch/XLA dengan native bfloat16.
 
-- **Tech Stack:** `PyTorch/XLA`, `TPU v5e-1`, `Adafactor`, `Google Cloud VM`
-- **Key Capabilities:**
+- **Teknologi Utama:** `PyTorch/XLA`, `TPU v5e-1`, `Adafactor`, `Google Cloud VM`
+- **Fitur Utama:**
   - Akselerasi performa tinggi menggunakan PyTorch/XLA + PJRT_DEVICE=TPU
   - Native bfloat16 precision training untuk alokasi memori HBM efisien
   - Automated verify-tpu script untuk diagnosa runtime tensor cepat
@@ -113,7 +111,7 @@ Here are some of the key machine learning, conversational engines, and neural ar
 
 ---
 
-### 📊 GitHub Activity Statistics
+### 📊 Statistik Aktivitas GitHub
 
 <div align="center">
   <table border="0">
@@ -134,5 +132,5 @@ Here are some of the key machine learning, conversational engines, and neural ar
 </div>
 
 <div align="center">
-  *Created dynamically with the Interactive ITS GitHub Builder* 🚀
+  *Dibuat secara dinamis menggunakan Interactive ITS GitHub Builder* 🚀
 </div>

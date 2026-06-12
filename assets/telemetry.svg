@@ -39,23 +39,23 @@
   <circle cx="40" cy="35" r="4.5" fill="#EE4C2C" />
 
   <!-- Header Text -->
-  <text x="65" y="39" class="title" letter-spacing="0.5">ITS FTEIC TELEMETRY SYSTEM ACTIVE</text>
+  <text x="65" y="39" class="title" letter-spacing="0.5">SISTEM TELEMETRI ITS FTEIC AKTIF</text>
   <line x1="25" y1="60" x2="595" y2="60" stroke="#1e293b" stroke-width="1" />
 
   <!-- Column 1: Identity of operator -->
-  <text x="35" y="85" class="lbl" fill="#EE4C2C">AUTHORIZED OPERATOR</text>
+  <text x="35" y="85" class="lbl" fill="#EE4C2C">PENGEMBANG UTAMA</text>
   <text x="35" y="105" class="val" font-weight="bold">Thomas Alfareno Ananta Nugraha</text>
   <text x="35" y="125" class="val" fill="#94a3b8" font-size="11">Teknik Informatika (Informatics Engineering)</text>
   <text x="35" y="145" class="val" fill="#64748b" font-size="11">Institut Teknologi Sepuluh Nopember (ITS)</text>
 
   <!-- Column 2: System Status metrics -->
-  <text x="250" y="85" class="lbl" fill="#a78bfa">SYSTEM ENGINE RUNTIME</text>
-  <text x="250" y="105" class="val">Node status: <tspan fill="#4ade80">ONLINE</tspan></text>
+  <text x="250" y="85" class="lbl" fill="#a78bfa">SISTEM RUNTIME MESIN</text>
+  <text x="250" y="105" class="val">Status Node: <tspan fill="#4ade80">ONLINE</tspan></text>
   <text x="250" y="125" class="val" fill="#cbd5e1" font-size="11">Backend: PyTorch &amp; MySQL</text>
-  <text x="250" y="145" class="val" fill="#cbd5e1" font-size="11">Core Decoders: Optimized</text>
+  <text x="250" y="145" class="val" fill="#cbd5e1" font-size="11">Dekoder Inti: Teroptimasi</text>
 
   <!-- Column 3: Signal vector graphics -->
-  <text x="440" y="85" class="lbl" fill="#4ade80">REAL-TIME SIGNAL</text>
+  <text x="440" y="85" class="lbl" fill="#4ade80">SINYAL REAL-TIME</text>
   <path d="M 440 120 Q 470 95, 490 120 T 540 120 T 590 110" stroke="#1e293b" stroke-width="2" fill="none" />
   <path d="M 440 120 Q 470 95, 490 120 T 540 120 T 590 110" stroke-width="2" fill="none" class="wave-path" />
   <circle cx="590" cy="110" r="3" fill="#6366f1" />

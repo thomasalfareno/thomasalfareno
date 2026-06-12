@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EE4C2C" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+    <filter id="beautyBlur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Ambient background circle -->
+  <circle cx="100" cy="100" r="95" fill="#020617" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Outer interactive glow ring -->
+  <circle cx="100" cy="100" r="84" stroke="url(#avatarGlow)" stroke-width="3" filter="url(#beautyBlur)" />
+  
+  <!-- Clip-path for loading the actual user custom image -->
+  <clipPath id="circleClip">
+    <circle cx="100" cy="100" r="76" />
+  </clipPath>
+  
+  <g clip-path="url(#circleClip)">
+    <rect width="200" height="200" fill="#0f172a" />
+    <image href="https://github.com/thomasalfareno.png" x="24" y="24" width="152" height="152" />
+  </g>
+  
+  <!-- Live Signal Indicator Dot -->
+  <circle cx="156" cy="156" r="11" fill="#020617" />
+  <circle cx="156" cy="156" r="7" fill="#22c55e" />
+</svg>
