@@ -1,35 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
   <defs>
     <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#EE4C2C" />
-      <stop offset="100%" stop-color="#a78bfa" />
+      <stop offset="0%" stop-color="#EE4C2C"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
     </linearGradient>
-    <filter id="beautyBlur" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+
+    <clipPath id="avatarClip">
+      <circle cx="100" cy="100" r="76"/>
+    </clipPath>
   </defs>
-  
-  <!-- Ambient background circle -->
-  <circle cx="100" cy="100" r="95" fill="#020617" stroke="#1e293b" stroke-width="2" />
-  
-  <!-- Outer interactive glow ring -->
-  <circle cx="100" cy="100" r="84" stroke="url(#avatarGlow)" stroke-width="3" filter="url(#beautyBlur)" />
-  
-  <!-- Clip-path for loading the actual user custom image -->
-  <clipPath id="circleClip">
-    <circle cx="100" cy="100" r="76" />
-  </clipPath>
-  
-  <g clip-path="url(#circleClip)">
-    <rect width="200" height="200" fill="#0f172a" />
-    <image href="./Icon.jpeg" x="24" y="24" width="152" height="152" />
+
+  <!-- Background -->
+  <circle
+    cx="100"
+    cy="100"
+    r="95"
+    fill="#020617"
+    stroke="#1E293B"
+    stroke-width="2"
+  />
+
+  <!-- Glow Ring -->
+  <circle
+    cx="100"
+    cy="100"
+    r="84"
+    fill="none"
+    stroke="url(#avatarGlow)"
+    stroke-width="4"
+  />
+
+  <!-- Avatar -->
+  <g clip-path="url(#avatarClip)">
+    <image
+      href="https://raw.githubusercontent.com/thomasalfareno/thomasalfareno/main/assets/avatar.jpg"
+      x="24"
+      y="24"
+      width="152"
+      height="152"
+      preserveAspectRatio="xMidYMid slice"
+    />
   </g>
-  
-  <!-- Live Signal Indicator Dot -->
-  <circle cx="156" cy="156" r="11" fill="#020617" />
-  <circle cx="156" cy="156" r="7" fill="#22c55e" />
+
+  <!-- Inner Border -->
+  <circle
+    cx="100"
+    cy="100"
+    r="76"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-opacity="0.15"
+    stroke-width="2"
+  />
+
+  <!-- Online Indicator -->
+  <circle cx="156" cy="156" r="12" fill="#020617"/>
+  <circle cx="156" cy="156" r="8" fill="#22C55E"/>
+
+  <!-- Pulse Animation -->
+  <circle cx="156" cy="156" r="8"
+          fill="#22C55E"
+          opacity="0.5">
+    <animate
+      attributeName="r"
+      values="8;14;8"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="opacity"
+      values="0.5;0;0.5"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
 </svg>
