@@ -1,64 +1,200 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 220" fill="none">
   <style>
     @keyframes pulse {
-      0%, 100% { r: 5; opacity: 0.4; }
-      50% { r: 12; opacity: 0; }
+      0%,100% { r:6; opacity:.45; }
+      50% { r:14; opacity:0; }
     }
+
     @keyframes lineDraw {
-      0% { stroke-dashoffset: 240; }
-      100% { stroke-dashoffset: 0; }
+      from { stroke-dashoffset: 240; }
+      to   { stroke-dashoffset: 0; }
     }
-    .g-pulse { animation: pulse 3s infinite ease-in-out; }
-    .wave-path {
-      stroke: url(#lineGrad);
-      stroke-dasharray: 60, 15;
-      animation: lineDraw 10s linear infinite;
+
+    @keyframes blink {
+      0%,100% { opacity:1; }
+      50% { opacity:.4; }
     }
-    .lbl { font-family: 'Fira Code', 'Courier New', monospace; font-size: 9.5px; fill: #64748b; font-weight: bold; label-spacing: 0.5px; }
-    .val { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11.5px; fill: #f1f5f9; }
-    .val-dim { font-family: 'Fira Code', 'Courier New', monospace; font-size: 10px; fill: #94a3b8; }
-    .val-sub { font-family: 'Fira Code', 'Courier New', monospace; font-size: 9px; fill: #64748b; }
-    .title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13.5px; font-weight: bold; fill: #ffffff; }
+
+    .pulse { animation:pulse 3s infinite ease-in-out; }
+
+    .wave {
+      stroke:url(#waveGrad);
+      stroke-width:2.5;
+      stroke-dasharray:60 15;
+      animation:lineDraw 10s linear infinite;
+    }
+
+    .online {
+      animation:blink 2s infinite;
+    }
+
+    .title {
+      font-family:'Fira Code','Courier New',monospace;
+      font-size:14px;
+      font-weight:700;
+      fill:#fff;
+    }
+
+    .label {
+      font-family:'Fira Code','Courier New',monospace;
+      font-size:9px;
+      font-weight:700;
+      fill:#94a3b8;
+      letter-spacing:1px;
+    }
+
+    .value {
+      font-family:'Fira Code','Courier New',monospace;
+      font-size:11px;
+      fill:#f8fafc;
+    }
+
+    .sub {
+      font-family:'Fira Code','Courier New',monospace;
+      font-size:9px;
+      fill:#64748b;
+    }
   </style>
+
   <defs>
-    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#EE4C2C" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.02" />
+    <linearGradient id="bgGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EE4C2C" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity=".03"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#EE4C2C" />
-      <stop offset="50%" stop-color="#a78bfa" />
-      <stop offset="100%" stop-color="#6366f1" />
+
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EE4C2C"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
   </defs>
-  
-  <rect width="620" height="180" rx="12" fill="#020617" stroke="#1e293b" stroke-width="1.5" />
-  <rect width="620" height="180" rx="12" fill="url(#neonGlow)" />
 
-  <!-- Pulse Tracker Status -->
-  <circle cx="40" cy="35" r="10" fill="#EE4C2C" fill-opacity="0.1" />
-  <circle cx="40" cy="35" r="14" fill="#EE4C2C" fill-opacity="0.05" class="g-pulse" />
-  <circle cx="40" cy="35" r="4.5" fill="#EE4C2C" />
+  <!-- Main Panel -->
+  <rect width="620" height="220"
+        rx="16"
+        fill="#020617"
+        stroke="#1E293B"
+        stroke-width="1.5"/>
 
-  <!-- Header Text -->
-  <text x="65" y="39" class="title" letter-spacing="0.5">SISTEM TELEMETRI ITS FTEIC AKTIF</text>
-  <line x1="25" y1="60" x2="595" y2="60" stroke="#1e293b" stroke-width="1" />
+  <rect width="620" height="220"
+        rx="16"
+        fill="url(#bgGlow)"/>
 
-  <!-- Column 1: Identity of operator (Width ~285px) -->
-  <text x="30" y="85" class="lbl" fill="#EE4C2C">PENGEMBANG UTAMA</text>
-  <text x="30" y="104" class="val" font-weight="bold">Thomas Alfareno Ananta Nugraha</text>
-  <text x="30" y="122" class="val-dim" fill="#94a3b8">Teknik Informatika (Informatics Engineering) - Angkatan 2026</text>
-  <text x="30" y="140" class="val-sub" fill="#64748b">Institut Teknologi Sepuluh Nopember (ITS)</text>
+  <!-- Header -->
+  <circle cx="35" cy="35" r="5" fill="#EE4C2C"/>
+  <circle cx="35" cy="35" r="8" fill="#EE4C2C" opacity=".15"/>
+  <circle cx="35" cy="35" r="8" fill="#EE4C2C" class="pulse"/>
 
-  <!-- Column 2: System Status metrics (Shifted to x=325 to secure comfort buffer) -->
-  <text x="325" y="85" class="lbl" fill="#a78bfa">SISTEM RUNTIME MESIN</text>
-  <text x="325" y="104" class="val">Status Node: <tspan fill="#4ade80" font-weight="bold">ONLINE</tspan></text>
-  <text x="325" y="122" class="val-dim">Backend: PyTorch &amp; MySQL</text>
-  <text x="325" y="140" class="val-sub">Dekoder Inti: Teroptimasi</text>
+  <text x="55" y="40" class="title">
+    SISTEM TELEMETRI ITS • FTEIC • AKTIF
+  </text>
 
-  <!-- Column 3: Signal vector graphics (Shifted to x=480 for beautiful alignment) -->
-  <text x="480" y="85" class="lbl" fill="#4ade80">SINYAL REAL-TIME</text>
-  <path d="M 480 120 Q 510 95, 525 120 T 560 120 T 600 110" stroke="#1e293b" stroke-width="2" fill="none" />
-  <path d="M 480 120 Q 510 95, 525 120 T 560 120 T 600 110" stroke-width="2" fill="none" class="wave-path" />
-  <circle cx="600" cy="110" r="3" fill="#6366f1" />
+  <text x="530" y="40" class="sub">
+    UPTIME 24/7
+  </text>
+
+  <line x1="25" y1="58" x2="595" y2="58"
+        stroke="#1E293B"/>
+
+  <!-- Card 1 -->
+  <rect x="25" y="78"
+        width="250" height="115"
+        rx="12"
+        fill="#0F172A"
+        stroke="#1E293B"/>
+
+  <text x="40" y="100" class="label" fill="#EE4C2C">
+    PENGEMBANG UTAMA
+  </text>
+
+  <text x="40" y="125" class="value" font-weight="700">
+    Thomas Alfareno
+  </text>
+
+  <text x="40" y="142" class="value">
+    Ananta Nugraha
+  </text>
+
+  <text x="40" y="164" class="sub">
+    Teknik Informatika • Angkatan 2026
+  </text>
+
+  <text x="40" y="181" class="sub">
+    Institut Teknologi Sepuluh Nopember
+  </text>
+
+  <!-- Card 2 -->
+  <rect x="295" y="78"
+        width="145" height="115"
+        rx="12"
+        fill="#0F172A"
+        stroke="#1E293B"/>
+
+  <text x="310" y="100" class="label" fill="#A78BFA">
+    STATUS NODE
+  </text>
+
+  <circle cx="318" cy="124"
+          r="4"
+          fill="#4ADE80"
+          class="online"/>
+
+  <text x="330" y="128"
+        class="value"
+        fill="#4ADE80">
+    ONLINE
+  </text>
+
+  <text x="310" y="150" class="sub">
+    Backend
+  </text>
+
+  <text x="310" y="165" class="value">
+    PyTorch + MySQL
+  </text>
+
+  <text x="310" y="182" class="sub">
+    Decoder Optimized
+  </text>
+
+  <!-- Card 3 -->
+  <rect x="460" y="78"
+        width="135" height="115"
+        rx="12"
+        fill="#0F172A"
+        stroke="#1E293B"/>
+
+  <text x="475" y="100"
+        class="label"
+        fill="#4ADE80">
+    SINYAL REAL-TIME
+  </text>
+
+  <path d="M475 145
+           Q490 120 505 145
+           T535 145
+           T565 145
+           T590 132"
+        stroke="#1E293B"
+        stroke-width="2.5"
+        fill="none"/>
+
+  <path d="M475 145
+           Q490 120 505 145
+           T535 145
+           T565 145
+           T590 132"
+        fill="none"
+        class="wave"/>
+
+  <circle cx="590"
+          cy="132"
+          r="4"
+          fill="#6366F1"/>
+
+  <text x="475" y="178"
+        class="sub">
+    Telemetry Stream Stable
+  </text>
+
 </svg>
