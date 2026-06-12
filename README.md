@@ -1,6 +1,6 @@
 <div align="center">
 
-    <p align="center">
+<p align="center">
     <img src="https://avatars.githubusercontent.com/u/75778362?v=4" width="110" height="110" style="border-radius: 50%; border: 3px solid #EE4C2C;" alt="Avatar" />
     <br />
     <a href="https://github.com/thomasalfareno">
