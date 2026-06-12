@@ -119,11 +119,6 @@ Here are some of the key machine learning, conversational engines, and neural ar
   </table>
 </div>
 
-<div align="center">
-  *Created dynamically with the Interactive ITS GitHub Builder* 🚀
-</div>
-
-
 <!--## Hi there 👋
 **thomasalfareno/thomasalfareno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
