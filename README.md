@@ -1,9 +1,12 @@
 <div align="center">
 
-  <!-- Avatar Indah dari Aset lokal -->
   <p align="center">
-    <img src="assets/avatar.svg" width="130" height="130" style="border-radius: 50%; opacity: 0.95;" alt="Pas Foto / Avatar" />
-  </p>
+  <img
+    src="https://raw.githubusercontent.com/thomasalfareno/thomasalfareno/main/assets/avatar.svg"
+    width="180"
+    alt="Thomas Avatar"
+  />
+</p>
 
   # Halo Dunia, Saya Thomas Alfareno Ananta Nugraha! 👋
 
