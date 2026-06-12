@@ -1,4 +1,3 @@
-<div align="center">
 
   # Hello World, I'm Thomas Alfareno Ananta Nugraha! 👋
 
@@ -6,7 +5,13 @@
 
   📍 **Surabaya, East Java, Indonesia**
 
-  [![Profile Views](https://komarev.com/normal-badge.png?key=thomasalfareno&style=flat-square&color=01255e&label=PROFILE+VIEWS)](https://github.com/thomasalfareno)
+  <p align="center">
+    <img src="https://github.com/thomasalfareno.png" width="110" height="110" style="border-radius: 50%; border: 3px solid #EE4C2C;" alt="Avatar" />
+    <br />
+    <a href="https://github.com/thomasalfareno">
+      <img src="https://komarev.com/normal-badge.png?key=thomasalfareno&style=for-the-badge&color=EE4C2C&label=PROFILE+VIEWS" alt="Profile Views" />
+    </a>
+  </p>
 
   [![Typewriter](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1000&color=EE4C2C&center=true&vCenter=true&width=530&lines=import+torch;+model+%3D+SpaceAxModel();php+-r+'echo+"Interactive+systems";';SELECT+*+FROM+kbbi+LIMIT+1;console.log("Clean+Informatics+Web"))](https://git.io/typing-svg)
 
@@ -112,12 +117,6 @@ Here are some of the key machine learning, conversational engines, and neural ar
     </tr>
   </table>
 </div>
-
-<div align="center">
-  *Created dynamically with the Interactive ITS GitHub Builder* 🚀
-</div>
-
-
 
 <!--## Hi there 👋
 **thomasalfareno/thomasalfareno** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
