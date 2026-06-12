@@ -1,23 +1,12 @@
 <div align="center">
 
-<div align="center">
-
 <img src="https://avatars.githubusercontent.com/u/75778362?v=4"
      width="140"
      alt="Thomas Alfareno"/>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=thomasalfareno&label=Profile%20Views&color=EE4C2C&style=for-the-badge"
+     <img src="https://komarev.com/ghpvc/?username=thomasalfareno&label=Profile%20Views&color=EE4C2C&style=for-the-badge"
      alt="Profile Views"/>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/ITS-Informatics%20Engineering-EE4C2C?style=for-the-badge&logo=github&logoColor=white" />
-
-<img src="https://img.shields.io/badge/FTEIC-ITS-7C3AED?style=for-the-badge" />
-
-</div>
+     <img src="https://img.shields.io/badge/ITS-Informatics%20Engineering-EE4C2C?style=for-the-badge&logo=github&logoColor=white" />
+     <img src="https://img.shields.io/badge/FTEIC-ITS-7C3AED?style=for-the-badge" />
   
   # Halo Dunia, Saya Thomas Alfareno Ananta Nugraha! 👋
 
@@ -26,11 +15,11 @@
   📍 **Surabaya, East Java, Indonesia**
 
   <!-- Counter Kunjungan Profil -->
-  <p align="center">
+  <!--<p align="center">
     <a href="https://github.com/thomasalfareno">
       <img src="assets/profile_views.svg" alt="Statistik Kunjungan Profil" />
     </a>
-  </p>
+  </p>-->
 
   <!-- Simulasi Terminal Typewriter Animasi Penuh -->
   <p align="center">
